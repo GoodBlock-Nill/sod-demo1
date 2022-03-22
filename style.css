@@ -26,49 +26,59 @@ body {
 .container .sub1 {
   position: absolute;
   background-color: #000;
-  opacity: 0.1;
-  border-radius: 10px;
-  height: 135px;
-  width: 382px;
-  top: 440px;
-  left: 198px;
-  border : none
+  opacity: .1;
+  border-radius: 50px;
+  height: 48px;
+  width: 195px;
+  top: 630px;
+  left: 369px;
 }
 
 .container .sub2 {
   position: absolute;
-  background-color: #000;
-  opacity: 0.1;
-  border-radius: 10px;
-  height: 135px;
-  width: 382px;
-  top: 440px;
-  left: 613px;
+  background-color: black;
+  opacity: .1;
+  border-radius: 50px;
+  height: 48px;
+  width: 270px;
+  top: 3739px;
+  left: 590px;
 }
 
 .container .sub3 {
   position: absolute;
   background-color: #000;
-  opacity: 0.1;
+  opacity: 1;
   border-radius: 10px;
   height: 135px;
   width: 382px;
   top: 440px;
   left: 1031px;
 }
+.container .sub4 {
+  position: absolute;
+  background-color: #000;
+  opacity: .1;
+  border-radius: 50px;
+  height: 48px;
+  width: 195px;
+  top: 592px;
+  left: 862px;
+}
+
 
 .container .main-page {
   position: absolute;
   border-radius: 10px;
-  height: 80px;
-  width: 289px;
-  top: 50px;
-  left: 38px;
+  height: 60px;
+  width: 190px;
+  top: 0;
+  left: 18px;
 }
 
 .container .sub1:hover,
 .container .sub2:hover,
-.container .sub3:hover {
+.container .sub4:hover {
   opacity: 1;
   background-color: transparent;
 }
